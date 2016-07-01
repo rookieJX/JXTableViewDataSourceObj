@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B31C9A1D25F4C400721CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B31C991D25F4C400721CE4 /* main.m */; };
+		26B31C9D1D25F4C400721CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B31C9C1D25F4C400721CE4 /* AppDelegate.m */; };
+		26B31CA01D25F4C400721CE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B31C9F1D25F4C400721CE4 /* ViewController.m */; };
+		26B31CA31D25F4C400721CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B31CA11D25F4C400721CE4 /* Main.storyboard */; };
+		26B31CA51D25F4C400721CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B31CA41D25F4C400721CE4 /* Assets.xcassets */; };
+		26B31CA81D25F4C400721CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B31CA61D25F4C400721CE4 /* LaunchScreen.storyboard */; };
+		26B31CB31D25F4C400721CE4 /* JXOptimizeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B31CB21D25F4C400721CE4 /* JXOptimizeTableViewTests.m */; };
+		26B31CBE1D25F4C500721CE4 /* JXOptimizeTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B31CBD1D25F4C500721CE4 /* JXOptimizeTableViewUITests.m */; };
+		26B31CCD1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B31CCC1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26B31CAF1D25F4C400721CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B31C8D1D25F4C400721CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B31C941D25F4C400721CE4;
+			remoteInfo = JXOptimizeTableView;
+		};
+		26B31CBA1D25F4C500721CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B31C8D1D25F4C400721CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B31C941D25F4C400721CE4;
+			remoteInfo = JXOptimizeTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26B31C951D25F4C400721CE4 /* JXOptimizeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXOptimizeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B31C991D25F4C400721CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26B31C9B1D25F4C400721CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26B31C9C1D25F4C400721CE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26B31C9E1D25F4C400721CE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26B31C9F1D25F4C400721CE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26B31CA21D25F4C400721CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26B31CA41D25F4C400721CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B31CA71D25F4C400721CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B31CA91D25F4C400721CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B31CAE1D25F4C400721CE4 /* JXOptimizeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXOptimizeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B31CB21D25F4C400721CE4 /* JXOptimizeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXOptimizeTableViewTests.m; sourceTree = "<group>"; };
+		26B31CB41D25F4C400721CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B31CB91D25F4C500721CE4 /* JXOptimizeTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXOptimizeTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B31CBD1D25F4C500721CE4 /* JXOptimizeTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXOptimizeTableViewUITests.m; sourceTree = "<group>"; };
+		26B31CBF1D25F4C500721CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B31CCB1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTableViewDelegateAndDataSource.h; sourceTree = "<group>"; };
+		26B31CCC1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTableViewDelegateAndDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B31C921D25F4C400721CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B31CAB1D25F4C400721CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B31CB61D25F4C500721CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B31C8C1D25F4C400721CE4 = {
+			isa = PBXGroup;
+			children = (
+				26B31C971D25F4C400721CE4 /* JXOptimizeTableView */,
+				26B31CB11D25F4C400721CE4 /* JXOptimizeTableViewTests */,
+				26B31CBC1D25F4C500721CE4 /* JXOptimizeTableViewUITests */,
+				26B31C961D25F4C400721CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26B31C961D25F4C400721CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B31C951D25F4C400721CE4 /* JXOptimizeTableView.app */,
+				26B31CAE1D25F4C400721CE4 /* JXOptimizeTableViewTests.xctest */,
+				26B31CB91D25F4C500721CE4 /* JXOptimizeTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B31C971D25F4C400721CE4 /* JXOptimizeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				26B31C9B1D25F4C400721CE4 /* AppDelegate.h */,
+				26B31C9C1D25F4C400721CE4 /* AppDelegate.m */,
+				26B31C9E1D25F4C400721CE4 /* ViewController.h */,
+				26B31C9F1D25F4C400721CE4 /* ViewController.m */,
+				26B31CCB1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.h */,
+				26B31CCC1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.m */,
+				26B31CA11D25F4C400721CE4 /* Main.storyboard */,
+				26B31CA41D25F4C400721CE4 /* Assets.xcassets */,
+				26B31CA61D25F4C400721CE4 /* LaunchScreen.storyboard */,
+				26B31CA91D25F4C400721CE4 /* Info.plist */,
+				26B31C981D25F4C400721CE4 /* Supporting Files */,
+			);
+			path = JXOptimizeTableView;
+			sourceTree = "<group>";
+		};
+		26B31C981D25F4C400721CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26B31C991D25F4C400721CE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26B31CB11D25F4C400721CE4 /* JXOptimizeTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				26B31CB21D25F4C400721CE4 /* JXOptimizeTableViewTests.m */,
+				26B31CB41D25F4C400721CE4 /* Info.plist */,
+			);
+			path = JXOptimizeTableViewTests;
+			sourceTree = "<group>";
+		};
+		26B31CBC1D25F4C500721CE4 /* JXOptimizeTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26B31CBD1D25F4C500721CE4 /* JXOptimizeTableViewUITests.m */,
+				26B31CBF1D25F4C500721CE4 /* Info.plist */,
+			);
+			path = JXOptimizeTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B31C941D25F4C400721CE4 /* JXOptimizeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B31CC21D25F4C500721CE4 /* Build configuration list for PBXNativeTarget "JXOptimizeTableView" */;
+			buildPhases = (
+				26B31C911D25F4C400721CE4 /* Sources */,
+				26B31C921D25F4C400721CE4 /* Frameworks */,
+				26B31C931D25F4C400721CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXOptimizeTableView;
+			productName = JXOptimizeTableView;
+			productReference = 26B31C951D25F4C400721CE4 /* JXOptimizeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B31CAD1D25F4C400721CE4 /* JXOptimizeTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B31CC51D25F4C500721CE4 /* Build configuration list for PBXNativeTarget "JXOptimizeTableViewTests" */;
+			buildPhases = (
+				26B31CAA1D25F4C400721CE4 /* Sources */,
+				26B31CAB1D25F4C400721CE4 /* Frameworks */,
+				26B31CAC1D25F4C400721CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B31CB01D25F4C400721CE4 /* PBXTargetDependency */,
+			);
+			name = JXOptimizeTableViewTests;
+			productName = JXOptimizeTableViewTests;
+			productReference = 26B31CAE1D25F4C400721CE4 /* JXOptimizeTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26B31CB81D25F4C500721CE4 /* JXOptimizeTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B31CC81D25F4C500721CE4 /* Build configuration list for PBXNativeTarget "JXOptimizeTableViewUITests" */;
+			buildPhases = (
+				26B31CB51D25F4C500721CE4 /* Sources */,
+				26B31CB61D25F4C500721CE4 /* Frameworks */,
+				26B31CB71D25F4C500721CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B31CBB1D25F4C500721CE4 /* PBXTargetDependency */,
+			);
+			name = JXOptimizeTableViewUITests;
+			productName = JXOptimizeTableViewUITests;
+			productReference = 26B31CB91D25F4C500721CE4 /* JXOptimizeTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B31C8D1D25F4C400721CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wangjiaxiang;
+				TargetAttributes = {
+					26B31C941D25F4C400721CE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6F399U28WY;
+					};
+					26B31CAD1D25F4C400721CE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6F399U28WY;
+						TestTargetID = 26B31C941D25F4C400721CE4;
+					};
+					26B31CB81D25F4C500721CE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6F399U28WY;
+						TestTargetID = 26B31C941D25F4C400721CE4;
+					};
+				};
+			};
+			buildConfigurationList = 26B31C901D25F4C400721CE4 /* Build configuration list for PBXProject "JXOptimizeTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B31C8C1D25F4C400721CE4;
+			productRefGroup = 26B31C961D25F4C400721CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B31C941D25F4C400721CE4 /* JXOptimizeTableView */,
+				26B31CAD1D25F4C400721CE4 /* JXOptimizeTableViewTests */,
+				26B31CB81D25F4C500721CE4 /* JXOptimizeTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B31C931D25F4C400721CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B31CA81D25F4C400721CE4 /* LaunchScreen.storyboard in Resources */,
+				26B31CA51D25F4C400721CE4 /* Assets.xcassets in Resources */,
+				26B31CA31D25F4C400721CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B31CAC1D25F4C400721CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B31CB71D25F4C500721CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B31C911D25F4C400721CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B31CA01D25F4C400721CE4 /* ViewController.m in Sources */,
+				26B31C9D1D25F4C400721CE4 /* AppDelegate.m in Sources */,
+				26B31C9A1D25F4C400721CE4 /* main.m in Sources */,
+				26B31CCD1D25F58E00721CE4 /* JXTableViewDelegateAndDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B31CAA1D25F4C400721CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B31CB31D25F4C400721CE4 /* JXOptimizeTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B31CB51D25F4C500721CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B31CBE1D25F4C500721CE4 /* JXOptimizeTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B31CB01D25F4C400721CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B31C941D25F4C400721CE4 /* JXOptimizeTableView */;
+			targetProxy = 26B31CAF1D25F4C400721CE4 /* PBXContainerItemProxy */;
+		};
+		26B31CBB1D25F4C500721CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B31C941D25F4C400721CE4 /* JXOptimizeTableView */;
+			targetProxy = 26B31CBA1D25F4C500721CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26B31CA11D25F4C400721CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B31CA21D25F4C400721CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26B31CA61D25F4C400721CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B31CA71D25F4C400721CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26B31CC01D25F4C500721CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26B31CC11D25F4C500721CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B31CC31D25F4C500721CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXOptimizeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOptimizeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26B31CC41D25F4C500721CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXOptimizeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOptimizeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26B31CC61D25F4C500721CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXOptimizeTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOptimizeTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXOptimizeTableView.app/JXOptimizeTableView";
+			};
+			name = Debug;
+		};
+		26B31CC71D25F4C500721CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXOptimizeTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOptimizeTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXOptimizeTableView.app/JXOptimizeTableView";
+			};
+			name = Release;
+		};
+		26B31CC91D25F4C500721CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXOptimizeTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOptimizeTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXOptimizeTableView;
+			};
+			name = Debug;
+		};
+		26B31CCA1D25F4C500721CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXOptimizeTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOptimizeTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXOptimizeTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B31C901D25F4C400721CE4 /* Build configuration list for PBXProject "JXOptimizeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B31CC01D25F4C500721CE4 /* Debug */,
+				26B31CC11D25F4C500721CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B31CC21D25F4C500721CE4 /* Build configuration list for PBXNativeTarget "JXOptimizeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B31CC31D25F4C500721CE4 /* Debug */,
+				26B31CC41D25F4C500721CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26B31CC51D25F4C500721CE4 /* Build configuration list for PBXNativeTarget "JXOptimizeTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B31CC61D25F4C500721CE4 /* Debug */,
+				26B31CC71D25F4C500721CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26B31CC81D25F4C500721CE4 /* Build configuration list for PBXNativeTarget "JXOptimizeTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B31CC91D25F4C500721CE4 /* Debug */,
+				26B31CCA1D25F4C500721CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B31C8D1D25F4C400721CE4 /* Project object */;
+}
